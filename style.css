@@ -1,0 +1,109 @@
+/* Grundlegendes Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #2a8cdd;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1a6fa6;
+  }
+  
+  /* Hauptbereich Styling */
+  main {
+    padding: 2rem 2rem;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* Icons Styling */
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-box {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .icon-box img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon-box p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.vaccination-image {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
